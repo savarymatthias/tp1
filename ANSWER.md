@@ -10,12 +10,17 @@ Une instance EC2 est un serveur virtuel hébergé dans Elastic Compute Cloud (EC
 
 # 2.
 Qu'est-ce qu'un VPC ?
-Virtual Private Cloud
+Un Virtual Private Cloud est un groupe de ressources informatiques configurables à la demande dans un environnement de cloud public, qui fournit un certain niveau d'isolement entre les différentes organisations (appelées utilisateurs) qui utilisent ces ressources. L'isolation entre le VPC et les autres utilisateurs du cloud est habituellement obtenue par l'utilisation d'un sous-réseau IP et d'un mécanisme de communication virtuel (tel qu'un VLAN ou un groupe de canaux chiffrés) pour chaque utilisateur.
 # 3.
 A quoi sert un NSG ?
 
 # 4.
 Quelles sont les 5 propriétés désirables du cloud ?
+Paiement à l'usage
+Elastique
+Ouvert
+Mutualisé
+Libre-service
 
 # 5.
 Qu'est-ce que l'A/B Testing ?
