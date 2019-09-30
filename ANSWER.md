@@ -25,19 +25,22 @@ Libre-service
 
 # 5.
 Qu'est-ce que l'A/B Testing ?
-
+Le but de l'A/B testing est de determiner quelle version d'un visuel (par exemple un site web) est la 
+efficace. Pour cela, on divise les utilisateurs en 2 parties de façon totalement aleatoire. Chaque groupe de personne utilisera une version differente du site web. On pourra ainsi voir laquelle des 2 versions est la plus efficace en fonction de ce que l'on recherche (fluidite dans la navigation, suggestion d'achat...)
 # 6.
 Comment programmer le cloud ?
 Il faut utiliser la configuration "Infrastructure as code".
 
 # 7.
 Quelle est la technique pour faire un déploiement sans interruption de service ?
-
+Il faut faire du ZDD (Zero Downtime Deployment). 
 # 8.
 Qu'est-ce que le Canary release ?
+L'objectif est de faire basculé les utilisateurs petit à petit vers la version N+1. Donc on demarre avec une portion de 5% des utilisateurs, puis progressivement si il n'y a pas de probleme, on deploie la mise à jour pour le reste des utilisateurs. C'est une des technique du ZDD.
 
 # 9.
 Comment changer de taille de machine virtuelle ?
 
 # 10.
 Qu'est-ce que le Blue/Green deployment ?
+Le Blue Green deployment propose d’avoir un environnement de production identique à celui qui est utilisé par les utilisateurs qui recevra une nouvelle version. Ainsi si un probleme survient, il sera plus facile de faire un rollback
